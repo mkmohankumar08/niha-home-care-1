@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #14294F;
+  --color-navy-light: #1F3B6E;
+  --color-navy-dark: #0B1A34;
+
+  --color-recovery: #2E7D5B;
+  --color-recovery-light: #3F9C74;
+  --color-recovery-dark: #215C43;
+
+  --color-band: #2D6CDF;
+  --color-band-light: #5A8FEE;
+  --color-band-dark: #1E4EAE;
+
+  --color-clay: #C86B72;
+  --color-clay-light: #DA8D93;
+  --color-clay-dark: #A9535A;
+
+  --color-mist: #F1F4F1;
+  --color-mist-dark: #E7ECE7;
+
+  --color-ink: #1B1F1C;
+
+  --font-display: "Fraunces", serif;
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #F1F4F1;
+  color: #1B1F1C;
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: #2D6CDF;
+  color: white;
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid #2D6CDF;
+  outline-offset: 3px;
+}
+
+.bg-grain {
+  background-image: radial-gradient(circle at 1px 1px, rgba(27,31,28,0.06) 1px, transparent 0);
+  background-size: 18px 18px;
+}
+
+@keyframes dash {
+  to { stroke-dashoffset: 0; }
+}
