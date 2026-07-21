@@ -40,7 +40,7 @@ export default function ServicesTeaser() {
 
             <p className="mt-5 text-base leading-7 text-slate-600 sm:text-lg">
               Personalized home physiotherapy designed for pain relief,
-              rehabilitation and long-term recovery.
+              rehabilitation and long-term recovery
             </p>
 
             <Link
