@@ -31,7 +31,7 @@ export default function Hero() {
           <p className="mt-7 text-lg leading-8 text-navy/60 max-w-xl">
             Expert physiotherapy at your doorstep. We provide personalized
             care for pain relief, rehabilitation, mobility, and
-            recovery—all from the comfort of your home.
+            recovery—all from the comfort of your home
           </p>
 
           {/* Buttons */}
