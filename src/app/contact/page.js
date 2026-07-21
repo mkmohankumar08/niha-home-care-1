@@ -90,7 +90,7 @@ export default function ContactPage() {
                     <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-navy text-mist">
                       <item.icon size={20} strokeWidth={2.25} />
                     </div>
-                    <h3 className="mt-5 text-lg font-semibold text-navy">
+                    <h3 className="mt-5 text-lg font-semibold text-navy ">
                       {item.title}
                     </h3>
                     <p className="mt-2 text-sm text-navy/60 leading-relaxed">
